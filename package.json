@@ -1,0 +1,32 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "application du contôleur de consignes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AllardProject/CTL_Consignes_Dylan.git"
+  },
+  "keywords": [
+    "i2c",
+    "modbus",
+    "gpio",
+    "raspberry",
+    "express"
+  ],
+  "author": "Adrien, Hugo, Alexandre, Dylan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AllardProject/CTL_Consignes_Dylan/issues"
+  },
+  "homepage": "https://github.com/AllardProject/CTL_Consignes_Dylan#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "johnny-five": "^1.4.0",
+    "modbus-serial": "^7.8.1",
+    "onoff": "^5.0.1"
+  }
+}
